@@ -49,4 +49,4 @@ jobs:
     docker buildx build --platform linux/amd64,linux/arm64 \
     -t ${{ env.DOCKER_HUB_REPO }}:latest \
     -t ${{ env.DOCKER_HUB_REPO }}:$GITHUB_SHA \
-    --push .
+      --push .
