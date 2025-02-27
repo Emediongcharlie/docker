@@ -29,4 +29,4 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: build docker image
-      run: docker build -t docker-d .
+      run: docker build -t docker .
