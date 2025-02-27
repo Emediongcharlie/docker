@@ -1,7 +1,7 @@
 name: Maven Package
 
 env:
-  DOCKER_HUB_REPO: emediongcharlie@gmail.com/docker
+  DOCKER_HUB_REPO: emediongcharlie/docker
 
 on:
   push:
